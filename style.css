@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box{
+	background-color: red;
+	margin: 0 auto;
+	/* height: 100vh; */
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.container{
+	width: calc((100% / 4) - 4%);
+	height: 250px;
+	border: solid 1px #000;
+	margin: 2%;
+	padding: 5px;
+	text-align: center;
+	background: rgb(46, 58, 70);
+}
+
+.album{
+	/* height: 50%; */
+	width: 100%;
+}
+
+.album img{
+	height: auto;
+	width: 60%;
+}
+
+.titolo{
+	height: 50%;
+}
+
+h3{
+	font-size: 15px;
+	color: white;
+}
+
+.titolo p{
+	color: gray;
+}
+
+select{
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+button{
+	position: fixed;
+	top: 60px;
+	left: 10px;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+.none{
+	display: none;
+}
